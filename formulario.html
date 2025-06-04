@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br
+">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Pedido de Pizza</h1>
+
+    <form method="post" action="teste.jsp" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+
+            Nome:<br><input type="text"name="nome"style="background-color:rgb(193, 231, 178);"><br> 
+
+            E-mail:<br><input type="email" name="email"style="background-color:rgb(193, 231, 178);"><br>  
+
+            Tamanho: <br>
+                    <input type="radio" name="tamanho" value="Grande"> Grande (8 fatias)<br>
+                    <input type="radio" name="tamanho" value="Medio"> Medio (6 fatias)<br>
+                    <input type="radio" name="tamanho" value="Broto"> Broto (4 fatias)<br>
+                    
+            Sabor: <br><select name="Sabor"style="background-color:rgb(193, 231, 178);">
+
+                    <option></option>
+                    <option value="Calabresa">Calabresa</option>
+                    <option value="Mussarela">Mussarela</option>
+                    <option value="Frango">Frango</option>
+                    <option value="Atum">Atum</option>
+                    <option value="Portuguesa">Portuguesa</option>
+
+                        </select><br>
+
+            Adicionais: <br><input type="checkbox" name="borda cheder" value="sim"> Borda cheddar <br>
+                    <input type="checkbox" name="borda catupiri"value="sim">Borda catupiry <br>
+                    <input type="checkbox" name="queijo extra"value="sim"> Queijo extra <br>
+            Data Entrega: <input type="date" name="dataEntrega"style="background-color: rgb(193, 231, 178);">
+             <br>
+            Comentario:<br><textarea name="mensagem" rows="10" cols="26" style="background-color: rgb(193, 231, 178);"></textarea><br>
+            <input type="submit"value="Fazer pedido"style="margin-left:120px;">
+               
+
+    </form>
+
+</body>
+</html>
