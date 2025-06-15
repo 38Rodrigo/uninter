@@ -8,10 +8,20 @@
 
      .lista{
         list-style:upper-alpha;
-        font-size: 30px;
-        color: indigo;
+        font-size:30px;
+        color: rgb(51, 238, 13);
         width:fit-content;
-
+     }/*impar = a odd*/
+     .lista li:nth-child(odd){
+      background-color: blueviolet;
+     }/*par = a even*/
+     .lista li:nth-child(even){
+        background-color: aqua;
+     }
+     .lista li:hover{
+        color:black;
+        font-weight:bolder;
+        
      }
 
     </style>
